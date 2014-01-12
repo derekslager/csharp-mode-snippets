@@ -1,0 +1,4 @@
+${1:public} ${2:object} this[${3:int} index] {
+    get { return this.$4[index]; }
+    set { this.$4[index] = value; }
+}

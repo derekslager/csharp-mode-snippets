@@ -1,0 +1,3 @@
+foreach (var ${1:item} in $1s) {
+    $0
+}

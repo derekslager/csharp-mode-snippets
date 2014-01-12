@@ -1,0 +1,4 @@
+public ${1:object} ${2:PropertyName} {
+    get { return this.${2:$(camelize text)}; }
+    set { this.${2:$(camelize text)} = value; }
+}
